@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+    font-size: 14pt;
+}
+
+body {
+    background-color: #0f1116;
+    color: #dddddd;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+html, body, div, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    top: 0px;
+    padding: 5px;
+    margin: 0 auto;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 300%;
+
+    margin: 16px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+canvas {
+    /* margin: 0 auto; */
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#canvas {
+    margin: 0 auto;
+    width: 40vw;
+    height: 40vw;
+    border: 0.5px solid #555555;
+}
+
+a, a.visited {
+    color: #4489a8;
+}
+
+a:hover {
+    color: #51a4ca;
+}
